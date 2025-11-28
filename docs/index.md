@@ -26,9 +26,13 @@ features:
       alt: 计算机组成原理
     link: /src/Computer-Organization-and-Architecture
 
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    
+  - title: 编译原理
+    details: 编译原理是计算机专业重要基础学科
+    icon: 
+      src: /compilers.svg
+      alt: 编译原理
+    link: /compilers/1
+
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
