@@ -5,29 +5,34 @@ export default defineConfig({
   base: '/svenDocs/',
   title: "Sven Docs",
   description: "Sven Docs",
-  head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }]
-  ],
+  // head: [
+  //   ['link', { rel: 'icon', href: '/favicon.ico' }]
+  // ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.svg',
     siteTitle: 'Sven',
     nav: [
       { text: '主页', link: '/' },
-      { text: '计算机组成原理', link: '/src/Computer-Organization-and-Architecture' },
+      { text: '编译原理', link: '/compilers/index' },
+      { text: '计算机组成原理', link: '/Computer-Organization-and-Architecture/1' },
       { text: 'api', link: '/src/api-examples' },
       { text: 'md', link: '/src/markdown-examples' }
     ],
 
-    // sidebar: [
-    //   {
-    //     text: 'Examples',
-    //     items: [
-    //       { text: 'Markdown Examples', link: '/markdown-examples' },
-    //       { text: 'Runtime API Examples', link: '/api-examples' }
-    //     ]
-    //   }
-    // ],
+    sidebar: {
+      '/compilers/': [
+        {
+          text: '编译原理',
+          items: [
+            { text: '首页', link: '/compilers/' },
+            
+            { text: '内容', link: '/compilers/src/2' },
+            { text: '词法分析器实验', link: '/compilers/src/Lexical-Analyzer-Experiment.md' },
+          ]
+        }
+      ],
+    },
 
     socialLinks: [
       { icon: 'github', 
@@ -54,8 +59,8 @@ export default defineConfig({
     // }
 
     docFooter: {
-      prev: 'Pagina prior',
-      next: 'Proxima pagina'
+      prev: '上一页', 
+      next: '下一页'
     }
   }
 })
