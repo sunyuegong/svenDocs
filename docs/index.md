@@ -23,7 +23,7 @@ features:
     icon: 
       src: /cpu.svg
       alt: 计算机组成原理
-    link: /Computer-Organization-and-Architecture/1
+    link: /Computer-Organization-and-Architecture/index
 
   - title: 编译原理
     details: 编译原理是计算机专业重要基础学科

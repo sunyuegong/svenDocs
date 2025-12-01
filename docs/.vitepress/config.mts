@@ -15,7 +15,7 @@ export default defineConfig({
     nav: [
       { text: '主页', link: '/' },
       { text: '编译原理', link: '/compilers/index' },
-      { text: '计算机组成原理', link: '/Computer-Organization-and-Architecture/1' },
+      { text: '计算机组成原理', link: '/Computer-Organization-and-Architecture/index' },
       { text: 'api', link: '/src/api-examples' },
       { text: 'md', link: '/src/markdown-examples' }
     ],
@@ -26,9 +26,18 @@ export default defineConfig({
           text: '编译原理',
           items: [
             { text: '首页', link: '/compilers/' },
-            
             { text: '内容', link: '/compilers/src/2' },
             { text: '词法分析器实验', link: '/compilers/src/Lexical-Analyzer-Experiment.md' },
+          ]
+        }
+      ],
+      '/Computer-Organization-and-Architecture/': [
+        {
+          text: '计算机组成原理',
+          items: [
+            { text: '首页', link: '/Computer-Organization-and-Architecture/' },
+            { text: '内容', link: '/Computer-Organization-and-Architecture/src/2' },
+            
           ]
         }
       ],
