@@ -7,7 +7,7 @@ export default defineConfig({
 
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   lang: 'UTF-8',
-  base: '/',
+  base: '/SvenDocs/',
   markdown: {
     math: true
   },
