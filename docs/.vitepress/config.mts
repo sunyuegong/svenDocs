@@ -5,7 +5,7 @@ export default defineConfig({
   title: "SvenDocs",
   description: "A Docs Site",
 
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: '/img/favicon.ico' }]],
   lang: 'UTF-8',
   base: '/SvenDocs/',
   markdown: {
